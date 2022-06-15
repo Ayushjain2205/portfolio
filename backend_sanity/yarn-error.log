@@ -1,0 +1,57 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\ayush\AppData\Roaming\nvm\v14.17.0\node_modules\@sanity\cli\vendor\yarn install --json --non-interactive --ignore-engines --network-timeout 60000 --registry https://registry.npmjs.org
+
+PATH: 
+  C:\Users\ayush\AppData\Roaming\nvm\v14.17.0\node_modules\vendor;C:\Users\ayush\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\cmd;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;D:\;C:\Program Files\php-7.4.8-Win32-vc15-x64;C:\MinGW\bin;C:\Program Files (x86)\Yarn\bin;C:\Webdrivers;C:\Program Files (x86)\PuTTY;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Users\ayush\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\ayush\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\Java\jdk-17.0.2\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\Git\cmd;D:\;C:\Program Files\php-7.4.8-Win32-vc15-x64;C:\MinGW\bin;C:\Program Files (x86)\Yarn\bin;C:\Webdrivers;C:\Program Files (x86)\PuTTY;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\ProgramData\ComposerSetup\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;%NVM_HOME%;%NVM_SYMLINK%;C:\Users\ayush\.local\share\solana\install\active_release\bin;C:\Users\ayush\.cargo\bin;C:\Users\ayush\AppData\Local\Programs\Python\Python38-32\Scripts;C:\Users\ayush\AppData\Local\Programs\Python\Python38-32;C:\Users\ayush\AppData\Local\Microsoft\WindowsApps;C:\Users\ayush\AppData\Local\hyper\app-3.0.2\resources\bin;C:\src\flutter\bin;C:\Program Files\heroku\bin;C:\Users\ayush\AppData\Local\Yarn\bin;C:\Users\ayush\AppData\Roaming\npm;D:\LLVM\bin;C:\Users\ayush\Downloads\cockroach-v20.2.6.windows-6.2-amd64\cockroach-v20.2.6.windows-6.2-amd64;C:\Users\ayush\AppData\Roaming\Composer\vendor\bin;C:\Users\ayush\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\ayush\AppData\Roaming\Flow;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  14.17.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: getaddrinfo ENOTFOUND registry.npmjs.org
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:67:26)
+
+npm manifest: 
+  {
+    "name": "ayushportfolio",
+    "private": true,
+    "version": "1.0.0",
+    "description": "",
+    "main": "package.json",
+    "author": "ayush jain <ayushjain2205@gmail.com>",
+    "license": "UNLICENSED",
+    "scripts": {
+      "start": "sanity start",
+      "build": "sanity build"
+    },
+    "keywords": [
+      "sanity"
+    ],
+    "dependencies": {
+      "@sanity/base": "^2.30.1",
+      "@sanity/core": "^2.30.1",
+      "@sanity/default-layout": "^2.30.1",
+      "@sanity/default-login": "^2.30.1",
+      "@sanity/desk-tool": "^2.30.1",
+      "@sanity/eslint-config-studio": "^2.0.0",
+      "@sanity/vision": "^2.30.1",
+      "eslint": "^8.6.0",
+      "prop-types": "^15.7",
+      "react": "^17.0",
+      "react-dom": "^17.0",
+      "styled-components": "^5.2.0"
+    },
+    "devDependencies": {}
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
